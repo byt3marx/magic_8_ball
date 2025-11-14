@@ -2,40 +2,40 @@ import random
 
 name = "Marx"
 question = "Is all of this real?"
-anwser = ""
+answer = ""
 random_number = random.randint(1,15)
 
 if random_number == 1:
-  anwser += "Yes - definetly"
+  answer += "Yes - definetly"
 elif random_number == 2:
-  anwser += "It is decidedly so"
+  answer += "It is decidedly so"
 elif random_number == 3:
-  anwser += "Without a doubt"
+  answer += "Without a doubt"
 elif random_number == 4:
-  anwser += "Reply hazy, try again"
+  answer += "Reply hazy, try again"
 elif random_number == 5:
-  anwser += "Ask again later"
+  answer += "Ask again later"
 elif random_number == 6:
-  anwser += "Better not tell you now"
+  answer += "Better not tell you now"
 elif random_number == 7:
-  anwser += "My sources say no"
+  answer += "My sources say no"
 elif random_number == 8:
-  anwser += "Outlook not so good"
+  answer += "Outlook not so good"
 elif random_number == 9:
-  anwser += "It depends, is it?"
+  answer += "It depends, is it?"
 elif random_number == 10:
-  anwser += "You know the anwser"
+  answer += "You know the anwser"
 elif random_number == 11:
-  anwser += "Wrong question"
+  answer += "Wrong question"
 elif random_number == 12:
-  anwser += "The true anwser is the next anwser"
+  answer += "The true anwser is the next anwser"
 elif random_number == 13:
-  anwser += "Indubidaudably"
+  answer += "Indubidaudably"
 elif random_number == 14:
-  anwser += "Sure, why not."
+  answer += "Sure, why not."
 elif random_number == 15:
-  anwser += "I don't think so."
-else: anwser += "Error, number out of scope"
+  answer += "I don't think so."
+else: answer += "Error, number out of scope"
 
 if name == "":
   print(question)
@@ -43,6 +43,6 @@ else:
   print(name + " " + "asks:" + " " + question)
 
 if question == "":
-  print("The Magic 8-Ball cannot provide your fortune if you do not provide a qestion!")
+  print("The Magic 8-Ball cannot provide your fortune if you do not provide a question!")
 else:
-  print("Magic 8-Ball's anwser:" + " " + anwser)
+  print("Magic 8-Ball's anwser:" + " " + answer)
